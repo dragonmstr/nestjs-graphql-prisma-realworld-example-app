@@ -1,6 +1,6 @@
 # ![RealWorld Example App](logo.png)
 
-> ### NestJS, Prisma and GraphQL codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld) spec and API.
+> ### NestJS, Prisma and GraphQL codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/dragonmstr/realworld) spec and API.
 
 ### [Demo](https://nest-prisma-realworld.herokuapp.com/api)
 
@@ -8,7 +8,7 @@ This codebase was created to demonstrate a fully fledged fullstack application b
 
 We've gone to great lengths to adhere to the **NestJS, Prisma and GraphQL** community styleguides & best practices.
 
-For more information on how to this works with other frontends/backends, head over to the [RealWorld](https://github.com/gothinkster/realworld) repo.
+For more information on how to this works with other frontends/backends, head over to the [RealWorld](https://github.com/dragonmstr/realworld) repo.
 
 ## Getting started
 
@@ -22,7 +22,7 @@ npm start
 
 ## How it works
 
-Application is written using NestJS, Prisma and GraphQL, but since [backend API specification](<(https://github.com/gothinkster/realworld/tree/master/api)>) requires REST, graphql endpoint wrapped by REST API. It is the facade and work as microservice which sends all requests
+Application is written using NestJS, Prisma and GraphQL, but since [backend API specification](<(https://github.com/dragonmstr/realworld/tree/master/api)>) requires REST, graphql endpoint wrapped by REST API. It is the facade and work as microservice which sends all requests
 to graphql api.
 
 ### Project Structure
@@ -51,8 +51,8 @@ to graphql api.
 
 ## Resources
 
--   [Backend API spec](https://github.com/gothinkster/realworld/tree/master/api)
--   [Postman collection](https://github.com/gothinkster/realworld/blob/master/api/Conduit.postman_collection.json) that you can use to test your API endpoints as you build your app.
+-   [Backend API spec](https://github.com/dragonmstr/realworld/tree/master/api)
+-   [Postman collection](https://github.com/dragonmstr/realworld/blob/master/api/Conduit.postman_collection.json) that you can use to test your API endpoints as you build your app.
 
 ## Todo
 
